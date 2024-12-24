@@ -2,11 +2,11 @@ import { Element } from "react-scroll"
 import { faq } from "../constants"
 import FaqItem from "../components/FaqItem"
 
-const Faq = () => {
+const Feq = () => {
     const halfLength = Math.floor(faq.length / 2)
   return (
     <section>
-        <Element name="faq" className="relative">
+        <Element name="feq" className="relative">
             <div className="container relative z-2 py-28">
                 <div>
                     <h3 className="h3 max-md:h5 max-w-640 max-lg:max-w-md md-7 text-p4">
@@ -43,4 +43,4 @@ const Faq = () => {
   )
 }
 
-export default Faq
+export default Feq
